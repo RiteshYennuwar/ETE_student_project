@@ -41,7 +41,7 @@ To get started with the project, follow these steps:
 - **Flask App**: 
     ```bash
     python app.py
-then navigate to http://127.0.0.1:5000 to the app in the local browser  
+then navigate to http://127.0.0.1:5000 to run the app in the local browser  
 
 ## Contributing
 
