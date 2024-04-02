@@ -1,5 +1,57 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #218380; 
+                color: #fff; 
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh; 
+            }
+    
+            .login {
+                width: 80%;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            .form-label {
+                color: #8f2d56; 
+            }
+    
+            .form-control {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+    
+            .btn-primary {
+                background-color: #8f2d56; 
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            .btn-primary:hover {
+                background-color: #6c1d41; 
+            }
+            h2,h1{
+                color: #218380;
+            }
+        </style>
+    </head>
 <body>
     <div class="login">
        <h1>Student Exam Performance Indicator</h1>
@@ -105,8 +157,11 @@
             <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
         </div>
     </form>
+    {% if results is defined %}
     <h2>
-       THE  prediction is {{results}}
+        THE  prediction is {{results}}
     </h2>
+    {% endif %}
+
    <body>
 </html>

@@ -2,6 +2,9 @@
 
 This repository contains the code and resources for an end-to-end machine learning project aimed at predicting student performance.
 
+## Preview
+<img src="static/images/preview.png" alt="app preview">
+
 ## Overview
 
 The project focuses on predicting student performance using machine learning techniques. It involves several stages including data ingestion, transformation, model selection, training, evaluation, and deployment.
@@ -38,7 +41,7 @@ To get started with the project, follow these steps:
 - **Flask App**: 
     ```bash
     python app.py
-to run the app in the local browser  
+then navigate to http://127.0.0.1:5000 to the app in the local browser  
 
 ## Contributing
 
